@@ -1,0 +1,124 @@
+/* styles.css */
+
+body {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin: 0;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    
+    
+  }
+  
+  .header {
+    display: flex;
+    padding: 0 8px;
+    font-size: 16px;
+    font-weight: 900;
+    height: 150px;
+    justify-content: space-between;
+    align-items: center;
+    background-color: white;
+  }
+
+  .toplinks {
+    /*style these links if you want*/
+    display: flex;
+    justify-content: space-evenly;
+    width: 600px;
+    color: #346207;
+  }
+  .information {
+    width: 800px;
+    color: #f9faf8;
+    font-size: 24px;
+  }
+  .middle {
+  display: flex;
+  gap: 50px;
+  justify-content: center;
+  background-color: teal;
+  }
+
+.body {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  align-items: center;
+  font-style: ;
+}
+.quotebox {
+  background-color: #e5e7eb;
+  display: flex;
+  justify-content: center;
+}
+.quote {
+  background-color: #e5e7eb;
+  font-style: italic;
+  font-size: 36px ;
+  font-weight: 300;
+  
+  width: 1000px;
+}
+
+img {
+  border-radius: 25px;
+}
+
+
+.button {
+  height: 200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 25px;
+}
+button {
+  height: 100px;
+  background-color: lightgreen;
+  border-radius: 25px;
+}
+
+  .card {
+    border: 1px solid #eee;
+    box-shadow: 2px 4px 16px rgba(0,0,0,.06);
+    border-radius: 25px;
+    padding: 16px;
+    margin: 16px;
+    width: 300px;
+  }
+  
+
+  .container {
+    padding: 32px;
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+
+  .footer {
+    display: flex;
+    justify-content: center;
+    background-color: #1f2937;
+    color: #f9faf8;
+  }
+  ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+
+  li {
+    list-style-type: none;
+    color: #346207;
+    margin: 0;
+    padding: 0;
+  }
+  
+  a {
+    text-decoration: none;
+    font-size: 24px;
+    color: #346207;
+  }
+  
+  
